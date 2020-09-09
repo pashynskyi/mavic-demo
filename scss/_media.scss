@@ -398,7 +398,7 @@
   }
   // page-section top
   .top__title {
-    display: none;
+    font-size: 40px;
   }
   .top__text {
     margin: 15px 0 30%;
@@ -452,6 +452,13 @@
   }
 }
 // height ==================================================================
+// Условие для экранов с высотой от 0 до 450px >>>>>>>>>>
+@media (max-height: 450px) {
+  // header
+  .menu__list-phone {
+    padding: 20px 0;
+  }
+}
 // Условие для экранов с высотой от 0 до 375px >>>>>>>>>>
 @media (max-height: 375px) {
   // header
